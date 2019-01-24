@@ -54,7 +54,7 @@ def bot():
         elif user_input in ['তুমি কোথায় থাক', 'তোমার বাসা কই', 'তোমার ঠিকানা কি']:
             print('আমি সব জায়গায় থাকি।')
 
-        elif user_input == 'exit':
+        elif user_input in ['exit','ভাল থাকবেন','বিদায়','আল্লাহাফেজ']:
             print('বিদায়।')
             break
 
