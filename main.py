@@ -8,11 +8,12 @@ def bot():
         user_input = input('Me: ')
         print('Bot:', end=' ')
 
+
         if user_input in ['ধন্যবাদ', 'আপনাকে ধন্যবাদ']:
             print('আপনাকে কিভাবে সাহায্য করতে পারি?\n')
 
         elif user_input in ['তোমার নাম কি', 'তোমার নাম বল', 'তুমি কে', 'কে তুমি', 'নাম কি', 'কি নাম']:
-            print('আমার নাম অমুক।\n')
+            print('আমার নাম অমুক।')
 
         elif user_input in ['আজ কি বার', 'কি বার', 'আজকে কি বার']:
             day = datetime.date.today()
